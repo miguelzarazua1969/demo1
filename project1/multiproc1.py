@@ -3,6 +3,7 @@ import sys
 import multiprocessing as mp
 
 def foo(q):
+    print("here")
     q.put('hello')
 
 if __name__ == '__main__':
